@@ -20,7 +20,7 @@ public class LambdaExamples {
         // Take a single Double argument and return the String representation
         Function<Double, String> toStr = (dble) -> dble.toString();
         String result = toStr.apply(34.5);
-        System.out.println("Result value is " + result + " which is a string of length " + result.length());
+        System.out.println("Result value is " + result + " which is a string of length oh you know" + result.length());
 
         // Supplier
         // Just returns a String
