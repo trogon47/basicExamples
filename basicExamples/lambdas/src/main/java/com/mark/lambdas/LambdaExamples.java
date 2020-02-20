@@ -8,7 +8,7 @@ public class LambdaExamples {
         // Predicate Example
         // Take argument of String and return true if length of string is less than 10
         Predicate<String> strLen = (str) -> str.length() < 10;
-        System.out.println(strLen.test("hello"));
+        System.out.println(strLen.test("hello there I am in master"));
         System.out.println(strLen.test("Does this work ok"));
 
         // Consumer Example
